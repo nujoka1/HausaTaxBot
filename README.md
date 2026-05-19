@@ -8,7 +8,7 @@
 
 A Hausa-language tax chatbot for Nigerian tax questions built with retrieval-augmented generation and machine learning.
 
-## 📋 Features
+##  Features
 
 - **Hausa Language Support** - Natural interaction in Hausa language with proper preprocessing
 - **Semantic Retrieval** - Multiple encoders (c-TF-IDF, TF-IDF, ColBERT) with cosine similarity matching
@@ -18,7 +18,7 @@ A Hausa-language tax chatbot for Nigerian tax questions built with retrieval-aug
 - **Model Comparison** - Comprehensive evaluation framework for academic analysis
 - **Production Ready** - Error handling, logging, diagnostics
 
-## 🎬 Live Demo
+##  Live Demo
 
 ### Chat Interface - Interactive Q&A in Hausa
 ![HausaTaxBot Chat Demo](docs/demo_chat.png)
@@ -28,7 +28,7 @@ A Hausa-language tax chatbot for Nigerian tax questions built with retrieval-aug
 
 **Try it live:** Access the Streamlit Cloud deployment (link in deployment section below)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Local Development
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-### Deploy to Streamlit Cloud (Free ✅)
+### Deploy to Streamlit Cloud (Free )
 
 1. **Push to GitHub** (see section below)
 2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
@@ -59,13 +59,13 @@ streamlit run streamlit_app.py
 7. Click "Deploy"
 
 **Benefits of Streamlit Community Cloud:**
-- ✅ Unlimited public apps
-- ✅ Always free
-- ✅ Auto-deployment on git push
-- ✅ Custom domain support
-- ✅ Community apps showcase
+-  Unlimited public apps
+-  Always free
+-  Auto-deployment on git push
+-  Custom domain support
+-  Community apps showcase
 
-## 📤 Push to GitHub
+##  Push to GitHub
 
 ### Step 1: Create GitHub Repository
 
@@ -105,7 +105,7 @@ git push -u origin main
 
 Visit `https://github.com/USERNAME/HausaTaxBot` to confirm all files are uploaded.
 
-## 📊 Project Structure
+##  Project Structure
 
 ```
 HausaTaxBot/
@@ -134,7 +134,7 @@ HausaTaxBot/
 └── notebooks/                    # Analysis notebooks
 ```
 
-## 🎯 Core Components
+##  Core Components
 
 ### 1. **Hausa Preprocessing** 
 - Character normalization (ƙ→k, ɓ→b, ɗ→d, ɛ→e)
@@ -194,7 +194,7 @@ encoder = SentenceTransformer("distilbert-base-multilingual-minilm-l12-v2")
 encoder = TfidfVectorizer(max_features=5000, ngram_range=(1, 2))
 ```
 
-## 📚 Training Models
+##  Training Models
 
 ```bash
 # Train FastKAN with c-TF-IDF
@@ -209,7 +209,7 @@ python src/train_fastkan.py --epochs 50 --hidden-dim 128
 
 See `FASTKAN_TRAINING_GUIDE.md` for detailed instructions.
 
-## 🧪 Running Evaluation
+##  Running Evaluation
 
 ```bash
 # Benchmark all models
@@ -218,7 +218,7 @@ python src/model_benchmarking.py data/raw/hausa_tax_qa.json
 # Output: reports/evaluation_report_<timestamp>.md with full comparison
 ```
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.10+
 - Streamlit 1.28+
@@ -228,7 +228,7 @@ python src/model_benchmarking.py data/raw/hausa_tax_qa.json
 
 All listed in `requirements.txt`
 
-## 🌐 Usage
+##  Usage
 
 ### In Streamlit
 
@@ -261,7 +261,7 @@ embedding = encoder.encode([question])
 prediction = classifier.predict(embedding)
 ```
 
-## 📝 Logging
+##  Logging
 
 Logs saved to `logs/hausataxbot.log`
 
@@ -270,16 +270,16 @@ Control verbosity:
 logging.basicConfig(level=logging.DEBUG)  # DEBUG, INFO, WARNING, ERROR
 ```
 
-## 🎓 Academic Project
+##  Academic Project
 
 **For COEN 541/543 Course:**
-- ✅ Multiple encoders for comparison
-- ✅ Hausa NLP preprocessing (low-resource language)
-- ✅ Confidence calibration system
-- ✅ Proper train/val/test splits
-- ✅ Comprehensive evaluation metrics
-- ✅ Model selection framework
-- ✅ Deployment to production
+-  Multiple encoders for comparison
+-  Hausa NLP preprocessing (low-resource language)
+-  Confidence calibration system
+-  Proper train/val/test splits
+-  Comprehensive evaluation metrics
+-  Model selection framework
+-  Deployment to production
 
 **Key Techniques:**
 - c-TF-IDF: Class-aware TF-IDF from BERTopic
@@ -308,7 +308,7 @@ def custom_metric(self, y_true, y_pred):
 
 ---
 
-## 📚 Course Project Documentation
+##  Course Project Documentation
 
 ![COEN 541 Project Report](docs/coen541_report.png)
 
@@ -320,24 +320,24 @@ This project demonstrates advanced NLP techniques for low-resource languages usi
 
 ---
 
-## 🤝 Support
+##  Support
 
 - **Errors?** Check `logs/hausataxbot.log`
 - **Training?** See `FASTKAN_TRAINING_GUIDE.md`
 - **Architecture?** See `SESSION_2_SUMMARY.md`
 - **Code?** Check docstrings in `src/`
 
-## 📄 License
+##  License
 
 Academic project - Ahmadu Bello University, Zaria (COEN541/543)
 
-## 👥 Team
+##  Team
 
 HausaTaxBot Research Team  
 Ahmadu Bello University, Zaria, Nigeria
 
 ---
 
-**Status:** ✅ Production Ready  
+**Status:**  Production Ready  
 **Last Updated:** May 19, 2026  
 **Deployment:** Streamlit Community Cloud (free)
