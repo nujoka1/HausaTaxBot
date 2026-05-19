@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+~/yoloenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Cache
+.cache/
+cache/
+*.cache
+.pytest_cache/
+
+# Models and data (optional - add to .gitattributes for LFS if large)
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+
+# IDE generated files
+.vscode
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+evaluation/
+notebooks/**/checkpoint*
+notebooks/**/.ipynb_checkpoints/
+
+# Temp files
+*.tmp
+*.~
+.~*
+
+# Test outputs
+htmlcov/
+.coverage
+.hypothesis/

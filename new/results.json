@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "name": "c-TF-IDF + SVM",
+      "accuracy": 0.5714285714285714,
+      "precision": 0.5689113355780021,
+      "recall": 0.5714285714285714,
+      "f1": 0.5538243128192265,
+      "encoder": "c-TF-IDF",
+      "classifier": "SVM"
+    },
+    {
+      "name": "c-TF-IDF + FastKAN",
+      "accuracy": 0.07142857142857142,
+      "precision": 0.00510204081632653,
+      "recall": 0.07142857142857142,
+      "f1": 0.009523809523809523,
+      "encoder": "c-TF-IDF",
+      "classifier": "FastKAN"
+    },
+    {
+      "name": "ColBERT + SVM",
+      "accuracy": 0.5714285714285714,
+      "precision": 0.5531505531505531,
+      "recall": 0.5714285714285714,
+      "f1": 0.5457251966732188,
+      "encoder": "ColBERT",
+      "classifier": "SVM"
+    },
+    {
+      "name": "ColBERT + FastKAN",
+      "accuracy": 0.07142857142857142,
+      "precision": 0.010964912280701754,
+      "recall": 0.07142857142857142,
+      "f1": 0.016094242575078813,
+      "encoder": "ColBERT",
+      "classifier": "FastKAN"
+    },
+    {
+      "name": "Model2Vec + SVM",
+      "accuracy": 0.5555555555555556,
+      "precision": 0.5421253349824778,
+      "recall": 0.5555555555555556,
+      "f1": 0.5330632235173,
+      "encoder": "Model2Vec",
+      "classifier": "SVM"
+    },
+    {
+      "name": "Model2Vec + FastKAN",
+      "accuracy": 0.1111111111111111,
+      "precision": 0.03713181795373576,
+      "recall": 0.1111111111111111,
+      "f1": 0.04667537746806039,
+      "encoder": "Model2Vec",
+      "classifier": "FastKAN"
+    }
+  ],
+  "best_model": "c-TF-IDF + SVM",
+  "best_accuracy": 0.5714285714285714,
+  "best_f1": 0.5538243128192265,
+  "n_classes": 48,
+  "n_samples_train": 586,
+  "n_samples_test": 126,
+  "timestamp": "2026-05-12T09:23:04.216316"
+}

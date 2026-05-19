@@ -1,0 +1,43 @@
+# ============================================================
+# HausaTaxBot — COEN541 Project Dependencies
+# Ahmadu Bello University, Zaria · 2025/2026
+# ============================================================
+
+# Core NLP & ML
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Text preprocessing
+nltk>=3.8.1
+regex>=2023.0.0
+
+# Feature extraction — Encoding techniques (requirement)
+bertopic>=0.16.0          # for c-TF-IDF
+sentence-transformers>=2.7.0
+model2vec>=0.3.0          # Model2Vec + Potion (same package)
+
+# ColBERT retrieval
+ragatouille>=0.0.8        # wraps ColBERT cleanly for Python
+
+# FastKAN classifier (our improvement over SVM baseline)
+torch>=2.0.0
+fastkan>=0.1.0
+
+# Evaluation metrics
+rouge-score>=0.1.2
+
+# Web interface
+streamlit>=1.28.0
+gradio>=4.0.0
+
+# Utilities
+tqdm>=4.66.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+joblib>=1.3.0
+
+# Translation (for dataset construction — BLVCK)
+googletrans==4.0.0rc1
+transformers>=4.40.0      # Helsinki-NLP/opus-mt-en-ha
