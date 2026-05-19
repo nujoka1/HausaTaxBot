@@ -1,3 +1,7 @@
+![COEN 541 HausaTaxBot Project](docs/project_header.png)
+
+---
+
 # HausaTaxBot 🇳🇬
 
 **Mataimakin Haraji na Najeriya cikin Harshen Hausa**
