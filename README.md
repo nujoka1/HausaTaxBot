@@ -164,7 +164,7 @@ HausaTaxBot/
 - Model comparison tables
 - Markdown reports
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 | Task | Speed | Improvement |
 |------|-------|-------------|
@@ -173,7 +173,7 @@ HausaTaxBot/
 | 5-query session | 898ms total | **77% improvement** |
 | Model training | 30-60s | Includes validation |
 
-## 🔧 Configuration
+##  Configuration
 
 ### Confidence Thresholds
 ```
@@ -287,7 +287,7 @@ logging.basicConfig(level=logging.DEBUG)  # DEBUG, INFO, WARNING, ERROR
 - FastKAN: Kolmogorov-Arnold Networks
 - SVM: RBF kernel with probability calibration
 
-## 🛠️ Development
+##  Development
 
 ### Add new encoder
 ```python
