@@ -18,6 +18,16 @@ A Hausa-language tax chatbot for Nigerian tax questions built with retrieval-aug
 - **Model Comparison** - Comprehensive evaluation framework for academic analysis
 - **Production Ready** - Error handling, logging, diagnostics
 
+## 🎬 Live Demo
+
+### Chat Interface - Interactive Q&A in Hausa
+![HausaTaxBot Chat Demo](docs/demo_chat.png)
+
+### App Homepage - Model Selection & Knowledge Base
+![HausaTaxBot Homepage](docs/demo_homepage.png)
+
+**Try it live:** Access the Streamlit Cloud deployment (link in deployment section below)
+
 ## 🚀 Quick Start
 
 ### Local Development
