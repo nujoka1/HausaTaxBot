@@ -296,6 +296,20 @@ def custom_metric(self, y_true, y_pred):
     return metric_value
 ```
 
+---
+
+## 📚 Course Project Documentation
+
+![COEN 541 Project Report](docs/coen541_report.png)
+
+**Ahmadu Bello University, Zaria**  
+**Department of Computer Engineering**  
+**COEN 541: Natural Language Processing (Group Project)**
+
+This project demonstrates advanced NLP techniques for low-resource languages using hybrid encoder-classifier architectures and production-grade ML engineering practices.
+
+---
+
 ## 🤝 Support
 
 - **Errors?** Check `logs/hausataxbot.log`
